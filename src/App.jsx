@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { Toaster } from 'sonner';
 import { ScrollToTop } from "./components/ScrollToTop";
 
@@ -19,7 +19,7 @@ const PageLoading = () => (
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollToTop />
       <Suspense fallback={<PageLoading />}>
         <Routes>
@@ -31,7 +31,7 @@ function App() {
         </Routes>
       </Suspense>
       <Toaster position="top-right" richColors />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
