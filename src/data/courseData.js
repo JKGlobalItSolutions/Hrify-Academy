@@ -2,7 +2,8 @@ export const courseCategories = [
   { id: "college", title: "College Level" },
   { id: "school", title: "School Level" },
   { id: "gov", title: "Government Exams" },
-  { id: "law", title: "Law & Management" },
+  { id: "it", title: "IT & Software Courses" },
+  { id: "undergraduate", title: "Undergraduate Programs" },
 ];
 
 export const courseData = [
@@ -1222,7 +1223,895 @@ export const courseData = [
       { question: "Is the GK section difficult?", answer: "The GK section is vast but we provide structured, story-based digital notes and weekly webinars that make it easy to remember the most important hospitality-related and general events." },
       { question: "Can I manage this with my 12th board exams?", answer: "Absolutely. Our online platform provides flexible evening and weekend batches that allow you to balance your board studies with hospitality preparation effectively." }
     ]
+  },
+   // IT & SOFTWARE COURSES
+  {
+    id: "python-programming",
+    title: "Python Programming",
+    slug: "python-programming",
+    categoryId: "it",
+    shortDescription: "Master Python from beginner to advanced with real-time projects, live coding, and comprehensive career support.",
+    overview: "Python has become the undisputed language of modern technology, driving innovations in everything from web development to artificial intelligence. Our comprehensive Python Programming course is meticulously engineered to take you from absolute beginner to an industry-ready professional. Through a deeply structured curriculum, we ensure a seamless transition from basic syntax to advanced application development. We focus heavily on logical problem-solving and writing clean, scalable code that adheres to industry standards. Whether your goal is to automate repetitive tasks, build robust backend systems, or transition into data handling, this program provides the ultimate foundation.\n\nOur pedagogy relies exclusively on high-interaction digital learning. We strictly provide Daily Online Classes and specialized Weekend Online Batches, offering unmatched flexibility for college students and working professionals alike. This online-only model ensures you learn directly from top-tier industry veterans without the hassle of commuting. Every live coding session is designed to mimic real-world development environments. We provide 24/7 access to Recorded Lectures, allowing you to revisit complex logic and algorithms at your own pace. For practical experience, we incorporate GitHub and project deployment training, ensuring your portfolio stands out to recruiters.\n\nWhile our core technical training is delivered online, we prioritize your professional growth through strategic physical engagements. We conduct periodic offline seminars and career guidance workshops at various colleges and tech hubs. These offline events are exclusively designed for mentorship, networking, and industry awareness, giving you a clear career roadmap. We do not operate traditional offline coaching centers for regular classes; our digital ecosystem is perfected to deliver a premium, interruption-free learning experience.\n\nPractical implementation is the cornerstone of our program. The curriculum mandates the completion of real-time projects where you will apply Core Python, OOPs concepts, and File Handling to solve actual business problems. You will dive into Django and Flask basics, learning how to build and integrate RESTful APIs. Our advanced modules cover data handling and automation scripts, giving you a competitive edge in today's tech landscape. We also conduct rigorous mock interviews and provide extensive resume and portfolio guidance to prepare you for top-tier tech roles.\n\nTo ensure complete mastery, our platform includes AI Mock Tests and real-time Doubt Solving during live sessions. We believe in continuous assessment; hence, you will face weekly coding challenges that simulate technical rounds of top product-based companies. With our dedicated internship support and placement preparation modules, this program is not just a coding course—it is a complete career transformation journey designed to make you a highly sought-after Python developer.",
+    features: [
+      "High-Interaction Live Daily Online Classes",
+      "Specialized Weekend Online Batches for Professionals",
+      "24/7 Access to Recorded Lectures and Code Repositories",
+      "Real-time Doubt Solving via Dedicated Student Portal",
+      "Live Coding Sessions with Industry Experts",
+      "GitHub and Project Deployment Training",
+      "Extensive Resume & Portfolio Guidance",
+      "Dedicated Placement Preparation & Internship Support",
+      "Comprehensive AI Mock Tests for Coding Rounds",
+      "Rigorous Mock Interviews by Tech Leads",
+      "Offline Career Guidance Workshops & Tech Seminars",
+      "Step-by-Step Career Roadmap for Developers"
+    ],
+    highlights: [
+      { title: "Industry-Focused Curriculum", description: "Learn Python from scratch to advanced frameworks with a focus on real-world application." },
+      { title: "Real-Time Projects", description: "Build scalable applications and automate tasks to showcase in your developer portfolio." },
+      { title: "Elite Mentorship", description: "Gain insights and career guidance directly from senior software engineers." },
+      { title: "Complete Placement Support", description: "End-to-end assistance from resume building to mock technical interviews." }
+    ],
+    topics: [
+      {
+        module: "Python Fundamentals & OOPs",
+        details: ["Core Python Basics & Syntax", "Data Types, Variables & Operators", "Control Flow & Loops", "Object-Oriented Programming (OOPs)"]
+      },
+      {
+        module: "Advanced Core Concepts",
+        details: ["File Handling & I/O Operations", "Exception Handling & Debugging", "Regular Expressions", "Multithreading & Iterators"]
+      },
+      {
+        module: "Web Frameworks & APIs",
+        details: ["Django / Flask Basics", "REST API Development & Integration", "Routing & Views", "Database Connectivity (SQLite/PostgreSQL)"]
+      },
+      {
+        module: "Data & Automation",
+        details: ["Data Handling (Pandas/NumPy basics)", "Web Scraping (BeautifulSoup/Selenium)", "Automation Scripts", "GitHub & Cloud Deployment Training"]
+      }
+    ],
+    faqs: [
+      { question: "Do you offer physical classroom training for Python?", answer: "No, all our regular coding classes are conducted online via Daily and Weekend batches to provide the best interactive digital experience. However, we do conduct offline career seminars and tech workshops." },
+      { question: "Are recorded videos available if I miss a live class?", answer: "Yes, 24/7 access to Recorded Lectures is provided on our premium student portal for all enrolled students." },
+      { question: "Will I work on real projects?", answer: "Absolutely. Real-time projects, including API development and automation, are a mandatory part of the curriculum." },
+      { question: "Do you help with job placements?", answer: "Yes, we offer comprehensive placement preparation, including mock interviews, resume guidance, and internship support to kickstart your career." }
+    ]
+  },
+  {
+    id: "java-programming",
+    title: "Java Programming",
+    slug: "java-programming",
+    categoryId: "it",
+    shortDescription: "Comprehensive online Java coaching covering Core, Advanced, and Spring Boot with robust placement support.",
+    overview: "Java remains the backbone of enterprise-level software development, powering everything from massive backend systems to high-performance mobile applications. Our premium Java Programming course is designed to transform you into a highly capable, industry-ready developer. We focus on establishing a rock-solid foundation in Core Java before progressively guiding you through advanced enterprise frameworks. Our curriculum bridges the gap between theoretical knowledge and practical, real-world application, ensuring that you understand the underlying mechanics of the JVM, memory management, and scalable system design.\n\nWe deliver this intensive curriculum strictly through Daily Online Classes and Weekend Online Batches. This online-first approach allows us to utilize advanced digital whiteboards and live coding environments, providing an unparalleled interactive experience. You will learn directly from senior Java architects who bring years of production-level experience to the virtual classroom. To accommodate busy schedules, we provide uninterrupted access to Recorded Lectures. We emphasize practical software engineering skills, offering dedicated GitHub/project deployment training so you can showcase a professional portfolio to prospective employers.\n\nWhile our coding instruction is 100% online, we believe in the power of physical networking and career orientation. We regularly host offline seminars, tech workshops, and career guidance sessions to help you navigate the IT industry landscape. These offline events are strictly for mentorship and professional development; we do not run offline regular coaching centers, allowing us to maintain the highest quality of digital instruction and real-time Doubt Solving during our live online sessions.\n\nThe technical depth of this program is unmatched. You will master OOPs concepts, Collections, and Exception Handling, which form the core of any Java interview. We then transition into Advanced Java, covering JDBC for robust database connectivity and introducing you to Spring Boot basics for modern API development. You will build multiple mini-projects and a capstone real-time project, simulating the entire software development lifecycle. Our structured career roadmap ensures you are moving in the right direction at every step.\n\nBeyond coding, we are deeply committed to your career success. Our AI Mock Tests evaluate your coding speed and logic, preparing you for the rigorous technical rounds of top MNCs. We provide exhaustive placement preparation, including resume and portfolio guidance, internship support, and intensive mock interviews. By the end of this course, you will not only write exceptional Java code but also possess the professional acumen to thrive in a competitive tech environment.",
+    features: [
+      "Premium Live Daily Online Classes",
+      "Flexible Weekend Online Batches for Working IT Professionals",
+      "24/7 Access to Recorded Lectures and Study Materials",
+      "Real-Time Doubt Solving & Interactive Live Coding",
+      "GitHub & Enterprise Project Deployment Training",
+      "Comprehensive Resume & Portfolio Guidance",
+      "Dedicated Placement Preparation & Internship Support",
+      "AI Mock Tests for Technical Round Simulation",
+      "Rigorous Mock Interviews by Senior Architects",
+      "Offline Career Guidance & Industry Seminars",
+      "Step-by-Step Career Roadmap to Full-Stack Developer",
+      "Mini Projects & Real-Time Capstone Development"
+    ],
+    highlights: [
+      { title: "Enterprise-Grade Curriculum", description: "Master Core Java, Advanced concepts, and modern frameworks like Spring Boot." },
+      { title: "Live Coding Focus", description: "Learn by doing with intensive live coding sessions and real-time error debugging." },
+      { title: "Robust Career Support", description: "Benefit from mock interviews, resume building, and dedicated placement assistance." },
+      { title: "Advanced Problem Solving", description: "Deep dive into Collections and OOPs to ace the toughest technical interviews." }
+    ],
+    topics: [
+      {
+        module: "Core Java & OOPs Mastery",
+        details: ["JVM Architecture & Data Types", "Object-Oriented Programming (OOPs)", "String Handling & Regular Expressions", "Multithreading & Concurrency"]
+      },
+      {
+        module: "Advanced Core Java",
+        details: ["Collections Framework Deep Dive", "Exception Handling Best Practices", "Java 8+ Features (Streams, Lambdas)", "File I/O & Serialization"]
+      },
+      {
+        module: "Database & Backend",
+        details: ["JDBC & Database Connectivity", "SQL Basics for Java Developers", "Advanced Java Concepts", "Mini Projects Implementation"]
+      },
+      {
+        module: "Modern Frameworks & Tools",
+        details: ["Spring Boot Basics", "REST API Creation", "GitHub Version Control", "Project Deployment Training"]
+      }
+    ],
+    faqs: [
+      { question: "Is this Java course taught in a physical classroom?", answer: "No, all our technical classes are delivered via high-interaction Online batches (Daily and Weekend) to ensure the best live coding experience. We do, however, organize offline career guidance seminars." },
+      { question: "Does this course cover Spring Boot?", answer: "Yes, the curriculum includes Spring Boot basics to help you understand modern enterprise backend development and REST API creation." },
+      { question: "Will I get help with my resume?", answer: "Absolutely. We provide extensive resume and portfolio guidance, along with mock interviews to ensure you are placement-ready." },
+      { question: "Are recorded sessions available?", answer: "Yes, all students get 24/7 access to Recorded Lectures for easy revision and practice." }
+    ]
+  },
+  {
+    id: "mern-stack-development",
+    title: "Full Stack Development (MERN Stack)",
+    slug: "mern-stack-development",
+    categoryId: "it",
+    shortDescription: "Elite online MERN stack coaching to build scalable web applications with complete placement and portfolio support.",
+    overview: "The MERN stack (MongoDB, Express.js, React.js, Node.js) is the industry standard for building dynamic, high-performance, and scalable web applications. Our Full Stack Development program is a premium, rigorous bootcamp designed to mold you into a versatile software engineer capable of handling both frontend and backend complexities. We focus on modern JavaScript architectures, state management, and secure API development, ensuring you learn the exact tech stack utilized by top product-based companies and hyper-growth startups.\n\nWe execute this comprehensive training strictly through high-interaction Daily Online Classes and specialized Weekend Online Batches. Our digital classroom is optimized for live coding sessions, enabling you to code alongside expert instructors and see instant results. By maintaining an online-only model for regular classes, we provide unparalleled flexibility and access to 24/7 Recorded Lectures. You will receive hands-on GitHub/project deployment training, learning how to host your applications on modern cloud platforms. Immediate, real-time Doubt Solving ensures you never remain stuck on a bug.\n\nWhile we do not run offline regular coaching centers, we place immense value on your holistic career development. We organize periodic offline seminars and career guidance workshops that provide crucial industry networking opportunities and insights into the evolving tech landscape. These offline touchpoints serve as motivational and strategic hubs, helping you refine your career roadmap while your core technical skills are honed in our premium online environment.\n\nThe curriculum is deeply industry-focused, taking you from beginner concepts to advanced deployment. You will master React.js for building interactive UIs, Node.js and Express.js for robust server-side logic, and MongoDB for flexible database management. Crucial concepts like secure Authentication (JWT), building REST APIs, and managing complex application state are covered in exhaustive detail. Throughout the course, you will build real-world full stack projects—such as e-commerce platforms or social media clones—that will serve as the centerpiece of your professional portfolio.\n\nTo bridge the gap between learning and employment, we offer unparalleled placement preparation. Our program includes AI Mock Tests to sharpen your debugging skills and intensive mock interviews conducted by industry tech leads. We provide comprehensive resume & portfolio guidance and active internship support to ensure you stand out in the competitive job market. Join our MERN stack program to experience a transformative, career-defining educational journey.",
+    features: [
+      "Intensive Live Daily Online Classes",
+      "Weekend Online Batches for Working Professionals",
+      "24/7 Access to Recorded Lectures and Source Code",
+      "Real-Time Doubt Solving & Interactive Live Coding",
+      "GitHub, CI/CD, and Project Deployment Training",
+      "Extensive Resume & Portfolio Guidance",
+      "Dedicated Placement Preparation & Internship Support",
+      "Real-World Full Stack Projects Construction",
+      "Rigorous Mock Interviews with Tech Experts",
+      "Offline Tech Seminars & Career Guidance Workshops",
+      "Advanced AI Mock Tests for Coding Assessments",
+      "Comprehensive Full Stack Career Roadmap"
+    ],
+    highlights: [
+      { title: "End-to-End Development", description: "Master MongoDB, Express.js, React.js, and Node.js to build complete web applications." },
+      { title: "Real-World Projects", description: "Develop and deploy production-ready applications to build a stunning portfolio." },
+      { title: "Security & APIs", description: "Learn enterprise-grade authentication and RESTful API architecture." },
+      { title: "Career Transformation", description: "Benefit from internship support, resume building, and rigorous mock interviews." }
+    ],
+    topics: [
+      {
+        module: "Frontend with React.js",
+        details: ["Modern JavaScript (ES6+)", "React Fundamentals & JSX", "Hooks & State Management (Redux/Context API)", "Routing & UI Components"]
+      },
+      {
+        module: "Backend with Node.js & Express",
+        details: ["Node.js Architecture & Modules", "Express.js Server Setup", "Middleware & Error Handling", "REST APIs Design & Implementation"]
+      },
+      {
+        module: "Database with MongoDB",
+        details: ["NoSQL Database Concepts", "MongoDB CRUD Operations", "Mongoose ODM & Schemas", "Aggregation & Indexing"]
+      },
+      {
+        module: "Integration & Deployment",
+        details: ["Authentication (JWT & OAuth)", "Connecting React with Node Backend", "GitHub Version Control", "Deployment (Vercel/Heroku/AWS)"]
+      }
+    ],
+    faqs: [
+      { question: "Is this course taught offline?", answer: "All our regular coding classes are strictly Online (Daily and Weekend batches) for an optimized live-coding experience. We only conduct offline seminars and career guidance workshops." },
+      { question: "Do I need prior web development experience?", answer: "No, the course starts with beginner-friendly JavaScript concepts and scales up to advanced MERN stack architecture." },
+      { question: "Will I deploy my projects to the internet?", answer: "Yes, GitHub and cloud project deployment training are integral parts of the curriculum." },
+      { question: "How does the placement support work?", answer: "We provide comprehensive placement preparation, including resume building, AI mock tests, mock interviews, and internship support to connect you with hiring companies." }
+    ]
+  },
+  {
+    id: "data-science-ai",
+    title: "Data Science & AI",
+    slug: "data-science-ai",
+    categoryId: "it",
+    shortDescription: "Premium online training in Data Science and Artificial Intelligence with real-time projects and career mentorship.",
+    overview: "Data Science and Artificial Intelligence (AI) are the driving forces behind the next industrial revolution, transforming how businesses operate and make decisions. Our premium Data Science & AI program is an intensive, industry-focused bootcamp designed to turn you into a highly analytical data professional. We go beyond basic syntax to teach you the mathematical intuition and statistical foundations behind machine learning algorithms. From data wrangling and visualization to building predictive models and deploying AI solutions, this curriculum covers the entire data lifecycle used by top tech firms.\n\nOur training is exclusively delivered via high-interaction Daily Online Classes and specialized Weekend Online Batches. This sophisticated digital model allows you to learn complex data concepts through live coding sessions and interactive data visualizations. By eliminating the need to commute, you gain back valuable time to practice and build models. We provide 24/7 access to Recorded Lectures and datasets, alongside immediate, real-time Doubt Solving to ensure your learning remains uninterrupted. You will also receive extensive GitHub/project deployment training to showcase your analytical models on the web.\n\nWhile our core academic delivery is strictly online, we recognize the importance of industry exposure. We frequently conduct offline seminars, career guidance workshops, and tech networking events. These physical touchpoints are designed to inspire you, clarify your career roadmap, and provide direct interaction with data industry leaders. We do not operate offline regular coaching centers, allowing us to focus all our resources on providing the most advanced digital learning ecosystem available.\n\nThe curriculum is rigorously structured from beginner to advanced levels. You will master Python for data handling (Pandas, NumPy) and data visualization (Matplotlib, Seaborn). The program dives deep into Machine Learning (Scikit-Learn), covering regression, classification, and clustering algorithms, before introducing Artificial Intelligence concepts like Deep Learning basics. A key component of our pedagogy is the execution of real-time projects, where you will solve complex business problems using raw data, building a formidable portfolio in the process.\n\nTo ensure you are fully prepared for the job market, we provide unparalleled placement preparation. You will undergo AI Mock Tests designed to simulate data science assessments and participate in rigorous mock interviews with seasoned data scientists. We offer dedicated resume & portfolio guidance and robust internship support to help you land your dream role. Step into the future of technology with our elite Data Science & AI coaching.",
+    features: [
+      "Premium Live Daily Online Classes",
+      "Specialized Weekend Online Batches for Working Professionals",
+      "24/7 Access to Recorded Lectures and Datasets",
+      "Real-Time Doubt Solving & Live Analytical Coding",
+      "Extensive Resume & Data Portfolio Guidance",
+      "Dedicated Placement Preparation & Internship Support",
+      "Real-Time Projects in Machine Learning & AI",
+      "GitHub & AI Model Deployment Training",
+      "Rigorous Mock Interviews with Data Scientists",
+      "Offline Tech Seminars & Career Guidance Workshops",
+      "Comprehensive AI Mock Tests for Analytical Rounds",
+      "End-to-End Data Science Career Roadmap"
+    ],
+    highlights: [
+      { title: "Comprehensive Curriculum", description: "Master Python, Machine Learning, and AI basics with an industry-focused approach." },
+      { title: "Real-Time Projects", description: "Build predictive models and data visualizations to solve actual business challenges." },
+      { title: "Expert Mentorship", description: "Learn the statistical intuition behind algorithms from elite data professionals." },
+      { title: "Career Ready", description: "Extensive support including mock interviews, resume building, and internship guidance." }
+    ],
+    topics: [
+      {
+        module: "Data Science Foundations",
+        details: ["Python for Data Science", "Statistics & Probability Basics", "Data Manipulation (Pandas, NumPy)", "Exploratory Data Analysis (EDA)"]
+      },
+      {
+        module: "Data Visualization",
+        details: ["Matplotlib & Seaborn", "Interactive Dashboards", "Data Storytelling", "Business Insights Generation"]
+      },
+      {
+        module: "Machine Learning",
+        details: ["Supervised Learning (Regression, Classification)", "Unsupervised Learning (Clustering, PCA)", "Model Evaluation & Tuning", "Feature Engineering"]
+      },
+      {
+        module: "AI & Deployment",
+        details: ["Introduction to Deep Learning", "NLP Basics", "GitHub Version Control", "Deploying ML Models (Flask/Streamlit)"]
+      }
+    ],
+    faqs: [
+      { question: "Is this course available in offline centers?", answer: "No, all regular classes are held via highly interactive Online batches (Daily and Weekend). Offline activities are limited to career guidance seminars and workshops." },
+      { question: "Do I need a strong math background?", answer: "While a basic understanding of math is helpful, our beginner-to-advanced curriculum covers all the necessary statistical foundations you need for data science." },
+      { question: "Will I build projects for my resume?", answer: "Yes, you will complete multiple real-time projects and receive dedicated portfolio guidance to showcase your skills to employers." },
+      { question: "Are recorded classes available?", answer: "Absolutely. 24/7 access to Recorded Lectures is provided so you can review complex machine learning concepts anytime." }
+    ]
+  },
+  {
+    id: "ui-ux-design",
+    title: "UI/UX Design",
+    slug: "ui-ux-design",
+    categoryId: "it",
+    shortDescription: "Master digital product design with premium online UI/UX coaching, real-time projects, and portfolio building.",
+    overview: "In today's digital landscape, the success of an application is dictated by its user experience. Our premium UI/UX Design program is a highly creative and strategic course designed to transform you into a professional product designer. We cover the entire design thinking process—from user research and wireframing to high-fidelity prototyping and usability testing. You will learn how to balance aesthetic brilliance with functional, user-centric logic, using industry-standard tools like Figma to create intuitive digital experiences.\n\nWe deliver this intensive design curriculum strictly through Daily Online Classes and specialized Weekend Online Batches. Our digital classroom is the perfect environment for visual learning, allowing for live design critiques, interactive brainstorming sessions, and real-time screen sharing. By keeping regular classes 100% online, we ensure you have the flexibility to design and iterate at your own pace, supported by 24/7 access to Recorded Lectures. Instant, real-time Doubt Solving ensures your creative workflow is never interrupted, while our GitHub/project deployment training teaches you how to hand off designs to developers seamlessly.\n\nWhile our core design instruction is online, we believe in the power of physical design communities. We host periodic offline seminars, design thinking workshops, and career guidance sessions. These events provide crucial networking opportunities and a broader perspective on the design industry, helping you build a clear career roadmap. We do not operate traditional offline coaching centers for our daily classes, ensuring our online platform remains the most advanced and focused environment for digital design education.\n\nOur curriculum is heavily industry-focused. You will progress from beginner principles of color theory and typography to advanced UX research methodologies. A critical component of the course is the execution of real-time projects; you will build complete case studies from scratch, redesigning existing apps and conceptualizing new ones. We provide exhaustive resume & portfolio guidance, ensuring your Behance or personal portfolio website effectively communicates your design decisions to hiring managers.\n\nTo ensure your successful transition into the industry, we offer comprehensive placement preparation. You will undergo AI Mock Tests focusing on design logic and participate in rigorous mock interviews with senior product designers. Our active internship support bridges the gap between learning and professional employment. Join our UI/UX Design program to master the art of digital empathy and craft experiences that users love.",
+    features: [
+      "High-Interaction Live Daily Online Classes",
+      "Flexible Weekend Online Batches for Creatives",
+      "24/7 Access to Recorded Lectures and Design Resources",
+      "Real-Time Doubt Solving & Live Design Critiques",
+      "Extensive Resume & Behance Portfolio Guidance",
+      "Dedicated Placement Preparation & Internship Support",
+      "Real-Time Projects & End-to-End Case Studies",
+      "Figma Mastery & Developer Handoff Training",
+      "Rigorous Mock Interviews by Senior Product Designers",
+      "Offline Design Seminars & Career Guidance Workshops",
+      "Comprehensive UI/UX Career Roadmap",
+      "AI Mock Tests for Design Logic Assessments"
+    ],
+    highlights: [
+      { title: "Design Thinking Focus", description: "Master the complete UX process from empathy and research to prototyping and testing." },
+      { title: "Real-Time Projects", description: "Build comprehensive case studies that showcase your problem-solving and visual skills." },
+      { title: "Figma Mastery", description: "Learn industry-standard tools for wireframing, high-fidelity UI, and interactive prototyping." },
+      { title: "Portfolio Centric", description: "Receive dedicated guidance to build a standout portfolio that attracts top recruiters." }
+    ],
+    topics: [
+      {
+        module: "UX Fundamentals & Research",
+        details: ["Design Thinking Process", "User Research & Personas", "Information Architecture", "User Flows & Journey Mapping"]
+      },
+      {
+        module: "UI Design & Visuals",
+        details: ["Color Theory & Typography", "Grids & Spacing Systems", "UI Components & Auto Layout in Figma", "Accessibility in Design"]
+      },
+      {
+        module: "Prototyping & Testing",
+        details: ["Low & High-Fidelity Wireframing", "Interactive Prototyping", "Usability Testing Methods", "Iterative Design Feedback"]
+      },
+      {
+        module: "Portfolio & Handoff",
+        details: ["Building a UI/UX Case Study", "Behance & Portfolio Website Guidance", "Developer Handoff Best Practices", "Design Systems Basics"]
+      }
+    ],
+    faqs: [
+      { question: "Do I need to know coding for UI/UX Design?", answer: "No, UI/UX design focuses on user research, visual design, and prototyping using tools like Figma. However, we do teach developer handoff basics." },
+      { question: "Are offline classes available?", answer: "All regular design classes are strictly Online (Daily and Weekend batches). We only conduct offline seminars and career workshops for networking and guidance." },
+      { question: "Will I build a portfolio?", answer: "Yes, portfolio building is a core focus. You will complete real-time projects and case studies, and receive expert resume & portfolio guidance." },
+      { question: "How are doubts resolved online?", answer: "Doubts are resolved instantly during live classes through screen sharing and design critiques, plus you have 24/7 access to Recorded Lectures." }
+    ]
+  },
+  {
+    id: "cyber-security",
+    title: "Cyber Security",
+    slug: "cyber-security",
+    categoryId: "it",
+    shortDescription: "Elite online Cyber Security training covering ethical hacking, network defense, and advanced penetration testing.",
+    overview: "As the digital world expands, the demand for professionals who can protect sensitive data and infrastructure has skyrocketed. Our premium Cyber Security program is an intensive, highly practical bootcamp designed to transform you into a formidable security expert. We cover a broad spectrum of security domains, from the fundamentals of networking and cryptography to advanced ethical hacking and penetration testing. This curriculum is designed to teach you how to think like a hacker in order to defend against them, utilizing the exact tools and methodologies used by modern cybersecurity task forces.\n\nWe deliver this rigorous training exclusively through high-interaction Daily Online Classes and specialized Weekend Online Batches. Cybersecurity requires extensive hands-on lab work, and our digital learning model is perfectly suited for live demonstrations of attacks and defenses in secure virtual environments. This online-only model ensures maximum flexibility, backed by 24/7 access to Recorded Lectures so you can meticulously review complex security protocols. Real-time Doubt Solving is integrated into every live coding and lab session, ensuring absolute conceptual clarity.\n\nWhile our core technical instruction is online, we recognize the need for strategic career orientation. We regularly host offline seminars, awareness programs, and career guidance workshops to discuss the latest threat landscapes and industry trends. These physical events are crucial for networking and building a robust career roadmap, but we do not operate offline regular coaching centers, allowing us to maintain the highest quality of specialized digital instruction.\n\nThe curriculum is deeply industry-focused, progressing from beginner concepts to advanced security architectures. You will learn network security, web application vulnerability assessment, and malware analysis. A significant portion of the program is dedicated to executing real-time projects, where you will secure simulated environments and conduct authorized penetration tests. We provide exhaustive resume & portfolio guidance, helping you highlight your security clearances, lab experiences, and certifications effectively.\n\nTo bridge the gap between training and elite employment, we offer robust placement preparation. You will undergo AI Mock Tests that simulate rigorous security clearance assessments and technical rounds. Our intensive mock interviews are conducted by seasoned security analysts. With dedicated internship support and GitHub/project deployment training for security tools, this program provides everything you need to launch a successful career in Cyber Security.",
+    features: [
+      "Elite Live Daily Online Classes",
+      "Specialized Weekend Online Batches for IT Professionals",
+      "24/7 Access to Recorded Lectures and Security Labs",
+      "Real-Time Doubt Solving & Live Attack/Defense Demos",
+      "Extensive Resume & Security Portfolio Guidance",
+      "Dedicated Placement Preparation & Internship Support",
+      "Real-Time Projects in Penetration Testing",
+      "GitHub & Custom Security Tool Deployment Training",
+      "Rigorous Mock Interviews by Security Experts",
+      "Offline Tech Seminars & Career Guidance Workshops",
+      "Comprehensive AI Mock Tests for Security Assessments",
+      "End-to-End Cyber Security Career Roadmap"
+    ],
+    highlights: [
+      { title: "Offensive & Defensive Security", description: "Master both ethical hacking techniques and robust network defense strategies." },
+      { title: "Hands-on Virtual Labs", description: "Learn through practical, live demonstrations of vulnerabilities and exploits." },
+      { title: "Industry-Focused Curriculum", description: "Covers web app security, cryptography, and modern threat landscapes." },
+      { title: "Career Transformation", description: "Benefit from mock interviews, resume building, and dedicated internship support." }
+    ],
+    topics: [
+      {
+        module: "Networking & Security Fundamentals",
+        details: ["OSI & TCP/IP Models", "Network Protocols & Ports", "Cryptography Basics", "Linux for Hackers"]
+      },
+      {
+        module: "Ethical Hacking & Reconnaissance",
+        details: ["Footprinting & Reconnaissance", "Scanning Networks (Nmap)", "Vulnerability Analysis", "Social Engineering"]
+      },
+      {
+        module: "Penetration Testing",
+        details: ["System Hacking & Privilege Escalation", "Web Application Security (OWASP Top 10)", "SQL Injection & XSS", "Wireless Network Attacks"]
+      },
+      {
+        module: "Defense & Incident Response",
+        details: ["Firewalls, IDS & IPS", "Malware Analysis Basics", "Incident Handling & Response", "Security Auditing & Reporting"]
+      }
+    ],
+    faqs: [
+      { question: "Is this Cyber Security course available offline?", answer: "No, all regular classes and lab sessions are strictly Online (Daily and Weekend batches). We conduct offline activities only for career guidance and seminars." },
+      { question: "Do I need prior coding experience?", answer: "While basic IT knowledge is helpful, our beginner-to-advanced curriculum covers the necessary networking and Linux fundamentals required for cybersecurity." },
+      { question: "Will I learn how to hack?", answer: "You will learn Ethical Hacking methodologies—understanding how attacks work in order to secure and defend systems against them." },
+      { question: "Does the program include placement support?", answer: "Yes, we offer comprehensive placement preparation, including resume guidance, AI mock tests, mock interviews, and internship support." }
+    ]
+  },
+  {
+    id: "cloud-computing-devops",
+    title: "Cloud Computing & DevOps",
+    slug: "cloud-computing-devops",
+    categoryId: "it",
+    shortDescription: "Master AWS, Docker, Kubernetes, and CI/CD pipelines with elite online DevOps coaching and real-time projects.",
+    overview: "The shift to the cloud is universal, and DevOps practices are the engine driving modern software delivery. Our premium Cloud Computing & DevOps program is a rigorous, industry-focused bootcamp designed to make you an expert in automating, scaling, and managing cloud infrastructure. This course bridges the gap between software development and IT operations, teaching you how to build robust CI/CD pipelines, manage containerized applications, and architect highly available systems on platforms like AWS.\n\nWe deliver this high-tech curriculum exclusively through Daily Online Classes and specialized Weekend Online Batches. The online-only model is perfectly suited for DevOps training, allowing you to learn via live screen-sharing as instructors configure servers, deploy containers, and troubleshoot pipelines in real-time. This provides unmatched flexibility for working professionals and students, supported by 24/7 access to Recorded Lectures. Instant, real-time Doubt Solving ensures you overcome technical hurdles immediately, while our intensive GitHub/project deployment training guarantees you can manage code repositories like a pro.\n\nWhile our technical training is 100% online, we deeply value career mentorship and industry connection. We regularly host offline seminars, networking events, and career guidance workshops to help you understand the rapidly evolving cloud ecosystem. These physical touchpoints provide a clear career roadmap and connect you with industry peers. However, we do not operate offline regular coaching centers, allowing us to maintain a hyper-focused, premium digital learning environment.\n\nThe curriculum takes you from foundational cloud concepts to advanced DevOps orchestration. You will master Linux administration, learn to provision infrastructure using AWS (EC2, S3, RDS), and automate deployments with CI/CD tools like Jenkins. We dive deep into containerization with Docker and container orchestration using Kubernetes. A massive component of the program is executing real-time projects, where you will build and deploy scalable, fault-tolerant infrastructure, proving your skills to future employers.\n\nWe are committed to your successful career transition. Our placement preparation includes AI Mock Tests that simulate cloud architecture scenarios and rigorous mock interviews conducted by senior DevOps engineers. We provide extensive resume & portfolio guidance to ensure your GitHub repositories reflect your cloud expertise, backed by strong internship support. Join us to become the linchpin of modern software teams.",
+    features: [
+      "Premium Live Daily Online Classes",
+      "Flexible Weekend Online Batches for IT Professionals",
+      "24/7 Access to Recorded Lectures and Cloud Labs",
+      "Real-Time Doubt Solving & Live Server Configuration",
+      "Extensive Resume & Cloud Portfolio Guidance",
+      "Dedicated Placement Preparation & Internship Support",
+      "Real-Time Projects in CI/CD and Containerization",
+      "GitHub & Automated Project Deployment Training",
+      "Rigorous Mock Interviews by Senior Cloud Architects",
+      "Offline Tech Seminars & Career Guidance Workshops",
+      "Comprehensive AI Mock Tests for DevOps Assessments",
+      "Step-by-Step Cloud & DevOps Career Roadmap"
+    ],
+    highlights: [
+      { title: "Cloud Architecture Mastery", description: "Learn to design, deploy, and manage highly available systems on AWS." },
+      { title: "DevOps Automation", description: "Master CI/CD pipelines using Jenkins to automate software delivery." },
+      { title: "Containerization Expert", description: "Deep dive into Docker and Kubernetes for modern application scaling." },
+      { title: "Career Ready", description: "Extensive placement support, mock interviews, and real-world project portfolios." }
+    ],
+    topics: [
+      {
+        module: "Cloud Computing Basics & Linux",
+        details: ["Linux Administration Fundamentals", "Introduction to Cloud Computing", "AWS Core Services (EC2, S3, IAM, VPC)", "Cloud Security Basics"]
+      },
+      {
+        module: "Version Control & CI/CD",
+        details: ["Git & GitHub Mastery", "Continuous Integration / Continuous Deployment", "Jenkins Pipeline Automation", "Build Tools (Maven/Gradle)"]
+      },
+      {
+        module: "Containerization & Orchestration",
+        details: ["Docker Architecture & Commands", "Creating Custom Docker Images", "Kubernetes (K8s) Cluster Setup", "Deploying Apps on K8s"]
+      },
+      {
+        module: "Infrastructure as Code & Monitoring",
+        details: ["Terraform Basics", "Ansible Configuration Management", "Monitoring (Prometheus & Grafana)", "Real-Time Project Deployment"]
+      }
+    ],
+    faqs: [
+      { question: "Is this DevOps program available in a physical classroom?", answer: "No, all regular instruction and lab work are conducted via highly interactive Online batches (Daily and Weekend). We hold offline events solely for seminars and career guidance." },
+      { question: "Do I need coding experience to learn DevOps?", answer: "Basic scripting knowledge (like bash/Python) is helpful, but our beginner-to-advanced curriculum covers the necessary Linux and automation fundamentals you need." },
+      { question: "Will I get hands-on experience with AWS and Docker?", answer: "Absolutely. Real-time projects involving AWS provisioning, Docker containerization, and Jenkins pipelines are a core part of the course." },
+      { question: "How does the internship and placement support work?", answer: "We provide comprehensive placement preparation, including resume building, AI mock tests, mock interviews, and internship support to connect you with hiring companies." }
+    ]
+  },
+
+  // GOVERNMENT EXAMS
+  {
+    id: "tnpsc-group-1",
+    title: "TNPSC Group 1",
+    slug: "tnpsc-group-1",
+    categoryId: "gov",
+    shortDescription: "Premium online coaching for TNPSC Group 1 with detailed syllabus coverage, exhaustive test series, and interview mentorship.",
+    overview: "The Tamil Nadu Public Service Commission (TNPSC) Group 1 exam is the most prestigious recruitment process in the state, offering candidates the opportunity to serve in top administrative positions such as Deputy Collector and DSP. Success in this highly competitive exam requires an extraordinary depth of knowledge, a strategic approach to the vast syllabus, and immense dedication. Our premium TNPSC Group 1 coaching program is meticulously designed to provide you with an elite, career-focused preparation journey that covers Prelims, Mains, and the final Interview stages comprehensively.\n\nOur coaching is delivered exclusively through high-interaction Online classes, featuring Daily Online Classes and specialized Weekend Online Batches. This online-only model ensures you receive top-tier mentorship from expert faculty and former civil servants from the comfort of your home, saving countless hours of commute. Our digital platform is an advanced ecosystem optimized for competitive learning, offering live interactive sessions and real-time Doubt Solving. With 24/7 access to Recorded Lectures, you can revise complex historical events, polity concepts, and analytical problems at your own pace, ensuring absolute conceptual clarity.\n\nWhile our core academic delivery is strictly online, we recognize the importance of physical mentorship and strategic guidance. We conduct periodic offline seminars, strategy sessions, and career guidance workshops. These physical events are designed to keep you highly motivated, provide a clear roadmap, and offer face-to-face interaction with toppers and mentors. However, we do not operate offline regular coaching centers, allowing us to focus all our resources on delivering the most comprehensive and high-quality digital education available.\n\nThe curriculum strictly adheres to the latest TNPSC Group 1 detailed syllabus. We provide in-depth training in History, Polity, Geography, Economy, and Tamil Nadu's specialized administration and culture modules. Current affairs preparation is integrated daily, ensuring you stay updated with critical state, national, and international events. To cater to all aspirants, we provide comprehensive Tamil + English support, including bilingual PDF notes that are meticulously researched and easy to revise. \n\nAssessment and strategy are at the heart of our program. We offer a rigorous online mock test series for both Prelims and Mains, featuring AI Mock Tests that analyze your performance, time management, and accuracy. We conduct extensive previous year question analysis to help you decode the examiner's mindset. For the final stage, our elite interview guidance program, led by seasoned bureaucrats, polishes your communication and administrative aptitude, ensuring you are fully prepared to secure a top rank.",
+    features: [
+      "High-Interaction Live Daily Online Classes",
+      "Specialized Weekend Online Batches for Working Professionals",
+      "24/7 Access to Recorded Classes and Video Archives",
+      "Real-time Doubt Solving & Interactive Sessions",
+      "Comprehensive Bilingual PDF Notes (Tamil & English)",
+      "Daily Current Affairs Preparation & Analysis",
+      "Advanced AI Mock Tests for Prelims & Mains",
+      "In-depth Previous Year Question Analysis",
+      "Dedicated Strategy Sessions & Study Planning",
+      "Elite Interview Guidance & Mock Panels",
+      "Offline Strategy Seminars & Motivation Workshops",
+      "Personalized Mentorship from Top Educators"
+    ],
+    highlights: [
+      { title: "Complete Syllabus Coverage", description: "Exhaustive training for Prelims and Mains, aligned strictly with the latest TNPSC Group 1 syllabus." },
+      { title: "Bilingual Excellence", description: "Classes and comprehensive PDF notes provided with full Tamil and English support." },
+      { title: "Current Affairs Mastery", description: "Daily integration of state, national, and international current events crucial for Mains." },
+      { title: "Interview Ready", description: "Elite interview mentorship and mock sessions conducted by experienced administrators." }
+    ],
+    topics: [
+      {
+        module: "General Science & Current Events",
+        details: ["Physics, Chemistry & Biology Fundamentals", "Scientific Discoveries & Environment", "National & International Current Affairs", "Tamil Nadu State Specific Current Events"]
+      },
+      {
+        module: "History, Culture & Geography",
+        details: ["History & Culture of India", "Indian National Movement", "Physical & Economic Geography of India", "Geography of Tamil Nadu"]
+      },
+      {
+        module: "Polity & Economy",
+        details: ["Indian Constitution & Governance", "Panchayat Raj & Public Administration", "Indian Economy & Five Year Plans", "Economy of Tamil Nadu"]
+      },
+      {
+        module: "Tamil Nadu Specifics & Aptitude",
+        details: ["History, Culture & Heritage of Tamil Nadu (Unit 8)", "Development Administration in TN (Unit 9)", "Mental Ability & Logical Reasoning"]
+      }
+    ],
+    faqs: [
+      { question: "Is this TNPSC Group 1 program available offline?", answer: "No, all regular classes are strictly Online (Daily and Weekend batches). We only conduct offline seminars and strategy workshops to provide high-level career guidance." },
+      { question: "Are the study materials available in Tamil?", answer: "Yes, we provide comprehensive Tamil + English support. All PDF notes and study materials are available bilingually." },
+      { question: "How do you help with the Mains examination?", answer: "We conduct specialized descriptive writing sessions, provide detailed Mains-specific PDF notes, and run a rigorous Mains mock test series with personalized feedback." },
+      { question: "Are recorded classes provided?", answer: "Absolutely. 24/7 access to Recorded Lectures is available for all students to revise subjects anytime." }
+    ]
+  },
+  {
+    id: "tnpsc-group-2",
+    title: "TNPSC Group 2 & 2A",
+    slug: "tnpsc-group-2",
+    categoryId: "gov",
+    shortDescription: "Elite online coaching for TNPSC Group 2/2A with bilingual support, rigorous mock tests, and comprehensive mentorship.",
+    overview: "The TNPSC Group 2 and 2A examinations are highly sought-after, offering excellent administrative career opportunities within the Tamil Nadu state government. Securing a top rank requires a highly focused preparation strategy, deep understanding of the syllabus, and exceptional time management. Our premium TNPSC Group 2 coaching program is designed to deliver a highly structured, career-focused learning experience that ensures you master both the Prelims and the descriptive Mains examinations.\n\nWe provide our comprehensive training exclusively through high-interaction Daily Online Classes and specialized Weekend Online Batches. This sophisticated digital model brings top-tier educators directly to you, providing maximum flexibility for both full-time aspirants and working professionals. You will benefit from real-time Doubt Solving during live sessions and enjoy 24/7 access to Recorded Lectures for seamless revision. By keeping our regular coaching online, we eliminate travel fatigue, allowing you to dedicate maximum time to preparation and practice.\n\nWhile we do not run offline regular coaching centers, we place immense value on physical mentorship and strategic alignment. We organize periodic offline seminars, career guidance workshops, and motivation sessions. These offline touchpoints allow you to interact face-to-face with successful candidates and expert mentors, helping you refine your strategy and maintain high morale throughout your preparation journey.\n\nOur curriculum provides a detailed syllabus breakdown, focusing heavily on General Studies, Aptitude, and the crucial language papers. We offer complete Tamil + English support, providing meticulously crafted, bilingual PDF notes that are easy to understand and memorize. Current affairs preparation is a daily mandate, ensuring you are well-versed in the dynamic aspects of the syllabus. We also place a strong emphasis on the specialized Unit 8 and Unit 9 of the Tamil Nadu syllabus, which are critical for high scores.\n\nTo ensure exam readiness, we deploy a rigorous assessment ecosystem. You will take part in AI Mock Tests that evaluate your speed and accuracy for Prelims, alongside intensive descriptive writing practice for the Mains exam. Our faculty conducts in-depth previous year question analysis to highlight recurring themes and expected patterns. For Group 2 (Interview posts), we provide dedicated interview guidance to polish your presentation and administrative acumen. Join our premium program to secure your future in the Tamil Nadu government services.",
+    features: [
+      "Premium Live Daily Online Classes",
+      "Flexible Weekend Online Batches for Working Professionals",
+      "24/7 Access to Recorded Classes for Easy Revision",
+      "Real-time Doubt Solving & Interactive Discussions",
+      "High-Quality Bilingual PDF Notes (Tamil & English)",
+      "Daily Current Affairs Preparation & Weekly Quizzes",
+      "Advanced AI Mock Tests for Prelims Accuracy",
+      "Descriptive Writing Practice for Mains",
+      "In-depth Previous Year Question Analysis",
+      "Dedicated Strategy Sessions & Mentorship",
+      "Specialized Interview Guidance (for Group 2 posts)",
+      "Offline Motivation Seminars & Strategy Workshops"
+    ],
+    highlights: [
+      { title: "Bilingual Pedagogy", description: "Classes and comprehensive PDF notes provided with full Tamil and English support." },
+      { title: "Mains Writing Focus", description: "Intensive training on translation, precis writing, and essay writing for the Mains exam." },
+      { title: "Unit 8 & 9 Mastery", description: "Specialized, deep-dive modules into Tamil Nadu history, culture, and administration." },
+      { title: "Comprehensive Strategy", description: "From AI mock tests to previous year analysis, we cover every angle of exam preparation." }
+    ],
+    topics: [
+      {
+        module: "Language & Aptitude (Prelims)",
+        details: ["General Tamil / General English", "Grammar & Literature Comprehension", "Mental Ability & Logical Reasoning", "Numerical Aptitude Shortcuts"]
+      },
+      {
+        module: "General Studies Foundation",
+        details: ["Indian Polity & Constitution", "History & National Movement", "Geography & Indian Economy", "General Science Basics"]
+      },
+      {
+        module: "Tamil Nadu Specialization",
+        details: ["History, Culture & Heritage of TN (Unit 8)", "Development Administration in TN (Unit 9)", "State Government Policies & Schemes"]
+      },
+      {
+        module: "Mains Descriptive Paper",
+        details: ["Translation (Tamil to English & vice versa)", "Precis Writing & Comprehension", "Hints Development & Essay Writing", "Letter Writing & Official Correspondence"]
+      }
+    ],
+    faqs: [
+      { question: "Is this course conducted in a physical classroom?", answer: "No, all regular classes are strictly Online (Daily and Weekend batches). We conduct offline activities only for seminars, career guidance, and motivation." },
+      { question: "Do you provide material for the Mains descriptive paper?", answer: "Yes, we provide extensive PDF notes and conduct specialized live sessions focusing on translation, essay writing, and precis writing for the Mains." },
+      { question: "Is the teaching in Tamil or English?", answer: "We provide comprehensive Tamil + English support. The classes are bilingual, and PDF notes are provided in both languages." },
+      { question: "Are mock tests included?", answer: "Absolutely. The program includes AI Mock Tests for Prelims and evaluated descriptive mock tests for the Mains examination." }
+    ]
+  },
+  {
+    id: "tnpsc-group-4",
+    title: "TNPSC Group 4 & VAO",
+    slug: "tnpsc-group-4",
+    categoryId: "gov",
+    shortDescription: "Highly focused online coaching for TNPSC Group 4 & VAO with extensive bilingual notes, daily tests, and strategy sessions.",
+    overview: "The TNPSC Group 4 & VAO (Village Administrative Officer) examination is one of the most highly competitive exams in Tamil Nadu, attracting lakhs of candidates. Cracking this exam requires absolute precision, a strong grasp of fundamentals, and high-speed problem-solving skills. Our premium TNPSC Group 4 coaching program is a highly structured, career-focused journey designed to help you master the single-stage objective examination and secure a vital role in the state administration.\n\nOur training is delivered exclusively through high-interaction Daily Online Classes and specialized Weekend Online Batches. This premium digital model ensures that you receive top-quality education from expert faculty, regardless of your location. We prioritize your convenience and learning efficiency, offering 24/7 access to Recorded Lectures so you can revise facts, formulas, and grammar rules multiple times. Our online platform facilitates real-time Doubt Solving, ensuring that no conceptual gap goes unaddressed.\n\nWhile our core academic curriculum is delivered 100% online, we deeply value the impact of physical mentorship. We organize offline seminars, awareness programs, and career guidance workshops to keep our students motivated and focused on their goals. These offline sessions provide crucial strategic insights and peer interaction. However, we do not operate offline regular coaching centers, which allows us to maintain a highly efficient, affordable, and premium digital learning experience.\n\nThe detailed syllabus for Group 4 is vast, but our curriculum breaks it down into highly manageable, structured modules. We provide exhaustive Tamil + English support, offering meticulously crafted bilingual PDF notes that are perfect for quick revision. Since General Tamil/English and Aptitude constitute a massive portion of the score, we conduct intensive daily practice sessions for these subjects. Our Current affairs preparation ensures you never miss out on critical GK marks.\n\nWe believe that practice is the key to Group 4 success. Our program includes an extensive series of AI Mock Tests that simulate the exact TNPSC exam environment, helping you build speed and accuracy. We conduct deep previous year question analysis to train you on eliminating wrong options quickly. With personalized mentorship and dedicated strategy sessions, this program provides everything you need to clear TNPSC Group 4 & VAO with a top rank.",
+    features: [
+      "High-Interaction Live Daily Online Classes",
+      "Specialized Weekend Online Batches for All Aspirants",
+      "24/7 Access to Recorded Classes & Revision Material",
+      "Real-time Doubt Solving & Live Interactive Quizzes",
+      "Exhaustive Bilingual PDF Notes (Tamil & English)",
+      "Daily Current Affairs & Static GK Preparation",
+      "Extensive AI Mock Tests & Subject-wise Quizzes",
+      "In-depth Previous Year Question Analysis",
+      "Dedicated Strategy Sessions & Time Management Drills",
+      "Intensive General Tamil / English Grammar Focus",
+      "Offline Motivation Seminars & Career Guidance Workshops",
+      "Personalized Mentorship for Exam Strategy"
+    ],
+    highlights: [
+      { title: "Language Mastery", description: "Intensive focus on General Tamil/English, which makes up 50% of the exam weightage." },
+      { title: "Bilingual Notes", description: "High-quality, easy-to-revise PDF notes provided with full Tamil and English support." },
+      { title: "Extensive Practice", description: "Daily online tests and full-length AI Mock Tests to build speed and accuracy." },
+      { title: "Smart Strategy", description: "Learn how to tackle questions using previous year analysis and elimination techniques." }
+    ],
+    topics: [
+      {
+        module: "General Language",
+        details: ["General Tamil Grammar & Literature", "General English Grammar & Vocabulary", "Comprehension & Error Spotting", "Previous Year Language Question Analysis"]
+      },
+      {
+        module: "Mental Ability & Aptitude",
+        details: ["Simplification & Number System", "Percentage, Ratio & Proportion", "Simple & Compound Interest", "Logical Reasoning & Puzzles"]
+      },
+      {
+        module: "General Studies & GK",
+        details: ["History & Culture of India", "Indian Polity Basics", "Geography & Economics Fundamentals", "General Science (Physics, Chemistry, Biology)"]
+      },
+      {
+        module: "Current Affairs & TN Specifics",
+        details: ["Latest State & National News", "Important Government Schemes", "Tamil Nadu History & Culture Basics", "VAO Administration Basics (if applicable)"]
+      }
+    ],
+    faqs: [
+      { question: "Is this TNPSC Group 4 program taught in offline centers?", answer: "No, all our regular coaching is strictly Online (Daily and Weekend batches). We hold offline events solely for seminars and motivational workshops." },
+      { question: "Do you focus more on General Tamil?", answer: "Yes, since General Tamil/English carries 100 questions, we have dedicated daily modules and extensive tests for language mastery." },
+      { question: "Are PDF notes provided in Tamil?", answer: "Absolutely. We provide comprehensive Tamil + English support, ensuring all PDF notes are accessible to both medium students." },
+      { question: "Can I watch the classes later if I work during the day?", answer: "Yes, 24/7 access to Recorded Lectures is available for all students to revise at their convenience." }
+    ]
+  },
+  {
+    id: "ssc-cgl-online",
+    title: "SSC CGL (Combined Graduate Level)",
+    slug: "ssc-cgl-online",
+    categoryId: "gov",
+    shortDescription: "Premium online coaching for SSC CGL Tier I & II with advanced math shortcuts, AI mock tests, and top-tier mentorship.",
+    overview: "The Staff Selection Commission Combined Graduate Level (SSC CGL) exam is the most prestigious gateway to Group B and Group C officer posts in various ministries of the Government of India. Clearing SSC CGL requires lightning-fast calculation skills, absolute conceptual clarity, and a flawless exam strategy. Our premium SSC CGL preparation program is an elite, high-intensity online journey designed to help you master both Tier I and the highly competitive Tier II examinations, ensuring you secure a top rank and your preferred post.\n\nWe deliver this rigorous training exclusively through high-interaction Daily Online Classes and specialized Weekend Online Batches. Our digital classroom is optimized for speed-learning and complex problem visualization, allowing you to learn directly from expert educators and former SSC toppers. By maintaining a 100% online model for regular classes, we eliminate travel time and provide 24/7 access to Recorded Lectures, empowering you to revise advanced math formulas and intricate grammar rules endlessly. Real-time Doubt Solving is integrated into every live session to ensure you never fall behind.\n\nWhile our core academic coaching is purely online, we deeply value the importance of physical mentorship and strategic career planning. We regularly host offline seminars, strategy workshops, and career guidance sessions. These physical events are designed to keep you highly motivated, provide a clear career roadmap, and foster networking with successful candidates. However, we do not operate offline regular coaching centers, allowing us to focus entirely on delivering a superior, uninterrupted digital learning experience.\n\nThe detailed syllabus for SSC CGL is immense, and our curriculum covers it exhaustively. We place a massive emphasis on Advanced Mathematics (Geometry, Trigonometry, Algebra) and high-level Logical Reasoning, teaching you the exact shortcut techniques required to maximize your attempts. Our English modules focus on deep comprehension and grammar accuracy, while our General Awareness sessions integrate daily Current affairs preparation and static GK. We provide high-quality PDF notes that compile vast amounts of data into easy-to-revise formats.\n\nMock tests are the cornerstone of our SSC CGL pedagogy. You will have access to an advanced series of AI Mock Tests that perfectly replicate the TCS exam interface and difficulty level for both Tier I and Tier II. We conduct in-depth previous year question analysis to help you decode the latest exam trends. With dedicated strategy sessions and personalized mentorship, this program is the ultimate launchpad for your career in the central government.",
+    features: [
+      "Elite Live Daily Online Classes",
+      "Specialized Weekend Online Batches for Working Professionals",
+      "24/7 Access to Recorded Lectures & Formula Archives",
+      "Real-time Doubt Solving & Interactive Speed Drills",
+      "Comprehensive & Structured PDF Notes",
+      "Advanced Math Shortcut & Vedic Math Workshops",
+      "Daily Current Affairs & Static GK Preparation",
+      "Advanced AI Mock Tests simulating TCS Pattern (Tier I & II)",
+      "In-depth Previous Year Question Analysis",
+      "Dedicated Strategy Sessions & Time Management Training",
+      "Offline Career Guidance Workshops & Motivation Seminars",
+      "Personalized Mentorship from SSC Experts"
+    ],
+    highlights: [
+      { title: "Advanced Math Mastery", description: "Intensive focus on Algebra, Geometry, and Trigonometry with rapid shortcut techniques." },
+      { title: "Tier II Ready", description: "Comprehensive preparation designed to conquer the high-difficulty Tier II examination from day one." },
+      { title: "TCS Pattern AI Mocks", description: "Practice on a platform that exactly mirrors the real exam interface and analytics." },
+      { title: "Smart GK Strategy", description: "Structured PDF notes and daily updates to tackle the unpredictable General Awareness section." }
+    ],
+    topics: [
+      {
+        module: "Quantitative Aptitude (Advanced & Arithmetic)",
+        details: ["Geometry & Mensuration", "Algebra & Trigonometry", "Percentage, Profit & Loss, SI/CI", "Time, Work & Distance"]
+      },
+      {
+        module: "English Comprehension",
+        details: ["Advanced Grammar & Error Spotting", "Vocabulary, Idioms & Phrases", "Active/Passive & Direct/Indirect Speech", "Reading Comprehension & Cloze Test"]
+      },
+      {
+        module: "General Intelligence & Reasoning",
+        details: ["Series, Analogy & Classification", "Syllogism & Venn Diagrams", "Non-Verbal Reasoning & Matrix", "Coding-Decoding & Blood Relations"]
+      },
+      {
+        module: "General Awareness",
+        details: ["Current Affairs (National & International)", "Static GK & General Science", "History, Polity & Geography Basics", "Economics & Computer Knowledge"]
+      }
+    ],
+    faqs: [
+      { question: "Is this SSC CGL program available in offline coaching centers?", answer: "No, all regular classes and rigorous practice sessions are strictly Online (Daily and Weekend batches). We conduct offline events only for strategy seminars and career guidance." },
+      { question: "Do you teach shortcut methods for Mathematics?", answer: "Yes, our Advanced Math modules are heavily focused on shortcut techniques and Vedic math to ensure you can solve complex problems in seconds." },
+      { question: "Are the mock tests updated to the latest pattern?", answer: "Absolutely. Our AI Mock Tests strictly follow the latest TCS examination pattern for both Tier I and Tier II." },
+      { question: "Can working professionals join this course?", answer: "Yes, our specialized Weekend Online Batches and 24/7 access to Recorded Lectures make it perfect for working professionals preparing for SSC CGL." }
+    ]
+  },
+  {
+    id: "ssc-chsl-online",
+    title: "SSC CHSL (10+2 Level)",
+    slug: "ssc-chsl-online",
+    categoryId: "gov",
+    shortDescription: "Highly focused online coaching for SSC CHSL with speed-math techniques, daily practice, and intensive mock tests.",
+    overview: "The SSC CHSL (Combined Higher Secondary Level) exam is an incredible opportunity for 12th-pass candidates to secure prestigious central government jobs like LDC, JSA, and DEO. Because the syllabus is vast and the competition is fierce, success demands high-speed execution and a rock-solid grasp of fundamentals. Our premium SSC CHSL coaching program provides a highly structured, career-focused digital learning experience designed to maximize your score in both Tier I and Tier II of the examination.\n\nWe provide our elite training exclusively through high-interaction Daily Online Classes and specialized Weekend Online Batches. This digital-first approach ensures that you receive top-tier instruction from expert faculty directly at home, allowing you to dedicate the time saved on commuting entirely to practice. Our online platform features live interactive sessions, rapid-fire quizzes, and real-time Doubt Solving. We provide 24/7 access to Recorded Lectures, empowering you to revise crucial grammar rules and mathematical formulas whenever you need.\n\nWhile our core academic instruction is 100% online, we believe in the power of physical motivation and strategic guidance. We organize offline seminars, career guidance workshops, and success meetups. These physical events are designed to inspire you, clarify your career roadmap, and provide face-to-face mentorship. We do not operate offline regular coaching centers, ensuring our digital ecosystem remains the ultimate, uninterrupted tool for your exam success.\n\nOur detailed syllabus breakdown focuses heavily on the core pillars of the exam: Quantitative Aptitude, English Language, Logical Reasoning, and General Awareness. We teach specialized speed-math techniques to help you conquer the quantitative section within the strict time limits. English language training emphasizes grammar accuracy and vocabulary building, which are vital for a high score. Our Current affairs preparation is updated daily, and we provide highly structured PDF notes that make static GK easy to memorize.\n\nContinuous assessment is key to clearing SSC CHSL. Our program includes a comprehensive suite of AI Mock Tests that replicate the actual exam environment, providing detailed analytics on your speed and accuracy. We conduct in-depth previous year question analysis to familiarize you with recurring patterns and trick questions. With dedicated strategy sessions and personalized mentorship, this program is perfectly engineered to help you secure a central government job at a young age.",
+    features: [
+      "Premium Live Daily Online Classes",
+      "Flexible Weekend Online Batches for Students & Professionals",
+      "24/7 Access to Recorded Classes & Study Materials",
+      "Real-time Doubt Solving & Interactive Quizzes",
+      "Highly Structured & Easy-to-Revise PDF Notes",
+      "Speed-Math & Calculation Shortcut Workshops",
+      "Daily Current Affairs & Static GK Updates",
+      "Extensive AI Mock Tests matching the Latest Pattern",
+      "In-depth Previous Year Question Analysis",
+      "Dedicated Strategy & Time Management Sessions",
+      "Offline Motivation Seminars & Career Guidance Workshops",
+      "Personalized Mentorship for Exam Success"
+    ],
+    highlights: [
+      { title: "Speed Optimization", description: "Intensive focus on calculation shortcuts and time-saving techniques for the Quantitative section." },
+      { title: "English Mastery", description: "Deep-dive training into grammar, vocabulary, and comprehension to maximize your score." },
+      { title: "Latest Pattern Mocks", description: "Practice with AI Mock Tests that perfectly simulate the new Tier I & Tier II exam interface." },
+      { title: "Comprehensive Notes", description: "Structured PDF notes designed specifically for quick revision of vast GK and rule-based topics." }
+    ],
+    topics: [
+      {
+        module: "Quantitative Aptitude",
+        details: ["Arithmetic Basics (Percentage, Ratio, Average)", "Basic Algebra & Geometry", "Data Interpretation", "Speed Calculation Techniques"]
+      },
+      {
+        module: "English Language",
+        details: ["Grammar Fundamentals & Error Spotting", "Vocabulary, Synonyms & Antonyms", "Cloze Test & Comprehension", "Active/Passive Voice Basics"]
+      },
+      {
+        module: "General Intelligence",
+        details: ["Logical Venn Diagrams", "Coding-Decoding & Series", "Paper Folding & Spatial Visualization", "Analogy & Classification"]
+      },
+      {
+        module: "General Awareness",
+        details: ["Current Events & Daily News", "Static GK & Indian History Basics", "General Science Concepts", "Basic Geography & Polity"]
+      }
+    ],
+    faqs: [
+      { question: "Is this SSC CHSL course available in offline centers?", answer: "No, all our regular classes and practice drills are strictly Online (Daily and Weekend batches). We only conduct offline events for career guidance and seminars." },
+      { question: "Is this course suitable for students currently in 12th standard?", answer: "Yes, the online format is highly flexible, and our beginner-friendly approach makes it perfect for students currently in or just passed out of 12th standard." },
+      { question: "Do you provide PDF notes for GK?", answer: "Absolutely. We provide comprehensive, structured PDF notes covering both Static GK and Current Affairs to make revision easy." },
+      { question: "Are recorded classes available?", answer: "Yes, you will have 24/7 access to all Recorded Lectures on our premium student portal." }
+    ]
+  },
+  {
+    id: "banking-exams-online",
+    title: "Banking Exams (SBI / IBPS / RBI)",
+    slug: "banking-exams-online",
+    categoryId: "gov",
+    shortDescription: "Premium online coaching for Bank PO and Clerk exams with high-speed puzzle solving, DI mastery, and interview guidance.",
+    overview: "The Banking sector offers some of the most secure, prestigious, and fast-paced careers in India. Clearing highly competitive exams like SBI PO, IBPS PO, and RBI Assistant requires a unique skill set: lightning-fast calculation, exceptional logical reasoning, and flawless accuracy under immense time pressure. Our premium Banking Exams preparation program is an elite, high-intensity digital bootcamp designed to help you master both Prelims and Mains examinations, ensuring you secure a top rank in the banking industry.\n\nWe deliver this rigorous training exclusively through high-interaction Daily Online Classes and specialized Weekend Online Batches. The banking exam format is entirely digital, making our online-only coaching model the perfect simulation for the actual test environment. You will learn directly from expert faculty and ex-bankers who teach advanced shortcut techniques via digital whiteboards. We provide 24/7 access to Recorded Lectures, allowing you to endlessly review complex puzzles and Data Interpretation (DI) sets. Real-time Doubt Solving is integrated into every live session to ensure you never lose momentum.\n\nWhile our core academic instruction is 100% online, we actively foster your professional growth through physical engagements. We host periodic offline seminars, career guidance workshops, and motivation sessions. These offline events are vital for networking, building a clear career roadmap, and receiving face-to-face mentorship from banking professionals. We do not operate offline regular coaching centers, allowing us to focus entirely on perfecting our premium digital learning ecosystem.\n\nOur detailed syllabus breakdown is meticulously aligned with the latest TCS exam patterns. We place a massive emphasis on high-level Data Interpretation and complex logical puzzles, which are the deciding factors in Bank PO Mains. Our English modules focus on rapid reading comprehension and grammar, while our Banking & Financial Awareness sessions integrate daily Current affairs preparation. We provide exhaustive PDF notes and digital magazines that compile critical financial news into easy-to-digest formats.\n\nAssessment and speed-building are the core of our pedagogy. You will have access to an advanced series of AI Mock Tests that perfectly replicate the banking exam interface, providing deep analytics on your percentile, speed, and accuracy. We conduct extensive previous year question analysis to decode the examiner's logic. Furthermore, for PO and Officer scale exams, we provide elite online interview guidance and mock panels led by ex-bankers, ensuring you are fully prepared for every stage of the selection process.",
+    features: [
+      "Elite Live Daily Online Classes for Bank PO & Clerk",
+      "Specialized Weekend Online Batches for Working Professionals",
+      "24/7 Access to Recorded Lectures & Puzzle Archives",
+      "Real-time Doubt Solving & High-Speed Interactive Quizzes",
+      "Comprehensive PDF Notes & Banking Awareness Magazines",
+      "Advanced Data Interpretation & Speed Math Workshops",
+      "Daily Current Affairs & Financial Awareness Preparation",
+      "Advanced AI Mock Tests mirroring the Latest TCS Pattern",
+      "In-depth Previous Year Question Analysis",
+      "Dedicated Strategy Sessions & Sectional Timing Drills",
+      "Elite Interview Guidance & Mock Panels by Ex-Bankers",
+      "Offline Career Guidance Workshops & Banking Seminars"
+    ],
+    highlights: [
+      { title: "Speed & Accuracy Focus", description: "Intensive training on Vedic math and shortcut techniques to beat the sectional time limits." },
+      { title: "Puzzle & DI Mastery", description: "Specialized modules dedicated to solving high-difficulty Mains-level Puzzles and Data Interpretation." },
+      { title: "Latest Pattern Mocks", description: "Practice on an AI platform that exactly replicates the banking exam interface and difficulty." },
+      { title: "Interview Ready", description: "Comprehensive interview mentorship and mock sessions conducted by seasoned banking professionals." }
+    ],
+    topics: [
+      {
+        module: "Quantitative Aptitude & DI",
+        details: ["Advanced Data Interpretation (Tables, Pie, Radar)", "Speed Math, Approximations & Number Series", "Quadratic Equations & Data Sufficiency", "Arithmetic Word Problems"]
+      },
+      {
+        module: "Reasoning & Computer Aptitude",
+        details: ["High-Level Puzzles & Seating Arrangements", "Syllogism, Inequalities & Blood Relations", "Machine Input-Output & Coding-Decoding", "Critical Reasoning & Computer Basics"]
+      },
+      {
+        module: "English Language",
+        details: ["Reading Comprehension & Skimming Techniques", "Cloze Test, Para Jumbles & Sentence Rearrangement", "Error Spotting & Grammar Rules", "Vocabulary & Contextual Usage"]
+      },
+      {
+        module: "General & Financial Awareness",
+        details: ["Current Affairs (Last 6 Months focus)", "Banking Terminology & RBI Functions", "Economic Policies & Financial Markets", "Static GK & Government Schemes"]
+      }
+    ],
+    faqs: [
+      { question: "Is this Banking course available in a physical classroom?", answer: "No, all regular classes and test series are strictly Online (Daily and Weekend batches). The online model perfectly simulates the digital nature of banking exams. We conduct offline events only for seminars." },
+      { question: "Does this course cover both Prelims and Mains?", answer: "Yes, our curriculum is comprehensive. We build your speed for Prelims and then transition into high-difficulty concepts required for the Mains examination." },
+      { question: "Is interview preparation included for PO exams?", answer: "Absolutely. We provide dedicated online interview guidance and mock interviews conducted by ex-bankers for PO and Officer scale exams." },
+      { question: "Do you provide current affairs material?", answer: "Yes, we provide daily Current Affairs updates and monthly banking awareness PDF notes to ensure you score high in the General Awareness section." }
+    ]
+  },
+  {
+    id: "rrb-exams",
+    title: "RRB Exams (NTPC & ALP/Group D)",
+    slug: "rrb-exams",
+    categoryId: "gov",
+    shortDescription: "Comprehensive online coaching for Railway Recruitment Board exams focusing on General Science, Math shortcuts, and CBT mocks.",
+    overview: "The Railway Recruitment Board (RRB) exams, including NTPC, ALP, and Group D, represent some of the most massive recruitment drives in the world, offering unparalleled job security and benefits in the Indian Railways. Clearing these highly competitive Computer Based Tests (CBT) requires a strong foundation in General Science, rapid calculation abilities, and extensive practice. Our premium RRB Exams preparation program is a highly structured, career-focused digital journey designed to help you master the vast syllabus and secure a top rank in the railway sector.\n\nWe deliver this intensive training exclusively through high-interaction Daily Online Classes and specialized Weekend Online Batches. This digital-first model ensures that you receive elite instruction from expert faculty directly at home, eliminating travel fatigue. Our online platform features live interactive sessions, real-time Doubt Solving, and dynamic visual aids for teaching General Science concepts. We provide 24/7 access to Recorded Lectures, empowering you to revise important formulas, historical dates, and scientific facts endlessly before your exam.\n\nWhile our core academic instruction is 100% online, we deeply value the role of physical motivation and strategic guidance. We organize offline seminars, career guidance workshops, and success meetups to keep you focused and inspired. These offline events provide a clear career roadmap and face-to-face interaction with mentors. We do not operate offline regular coaching centers, allowing us to maintain a highly efficient, affordable, and premium digital learning experience that perfectly simulates the RRB CBT environment.\n\nOur detailed syllabus covers every aspect of the RRB exams, with a massive emphasis on General Science (Physics, Chemistry, Life Sciences) and Mathematics. We teach specialized speed-math techniques and logical reasoning shortcuts to help you maximize your attempts within the tight 90-minute timeframe. Our General Awareness sessions integrate daily Current affairs preparation and static GK, supported by highly structured, easy-to-revise PDF notes. We offer Tamil + English support where applicable to ensure absolute clarity of concepts.\n\nAssessment and speed-building are the core of our pedagogy. You will have access to an advanced series of AI Mock Tests that perfectly replicate the railway CBT interface, providing deep analytics on your speed, accuracy, and negative marking control. We conduct extensive previous year question analysis to familiarize you with the RRB's unique questioning style. With dedicated strategy sessions and personalized mentorship, this program provides everything you need to embark on a successful career in the Indian Railways.",
+    features: [
+      "Premium Live Daily Online Classes for RRB Exams",
+      "Flexible Weekend Online Batches for All Aspirants",
+      "24/7 Access to Recorded Classes & Science Visualizations",
+      "Real-time Doubt Solving & Interactive Quizzes",
+      "Comprehensive & Easy-to-Revise PDF Notes",
+      "Intensive General Science (Physics, Chemistry, Bio) Modules",
+      "Daily Current Affairs & Static GK Preparation",
+      "Advanced AI Mock Tests simulating the RRB CBT Interface",
+      "In-depth Previous Year Question Analysis",
+      "Dedicated Strategy & Negative Marking Control Sessions",
+      "Offline Motivation Seminars & Career Guidance Workshops",
+      "Personalized Mentorship for Exam Strategy"
+    ],
+    highlights: [
+      { title: "General Science Mastery", description: "Deep-dive training into Physics, Chemistry, and Life Sciences, which carry huge weightage in RRB exams." },
+      { title: "Speed Math Focus", description: "Learn crucial calculation shortcuts and Vedic math techniques to beat the clock in the Quantitative section." },
+      { title: "CBT Simulation", description: "Practice on an AI platform that exactly replicates the railway Computer Based Test environment." },
+      { title: "Comprehensive Notes", description: "Structured PDF notes designed specifically for quick revision of vast GK and Science topics." }
+    ],
+    topics: [
+      {
+        module: "General Science",
+        details: ["Physics: Motion, Work, Energy & Sound", "Chemistry: Atoms, Molecules & Chemical Reactions", "Life Sciences: Human Anatomy, Diseases & Environment", "Scientific Instruments & Discoveries"]
+      },
+      {
+        module: "Mathematics",
+        details: ["Number System, BODMAS & Decimals", "Fractions, LCM, HCF & Ratio", "Percentages, Mensuration & Time-Work", "Algebra, Geometry & Trigonometry Basics"]
+      },
+      {
+        module: "General Intelligence & Reasoning",
+        details: ["Analogies, Series & Coding-Decoding", "Mathematical Operations & Relationships", "Syllogism, Venn Diagrams & Data Interpretation", "Statement - Arguments & Assumptions"]
+      },
+      {
+        module: "General Awareness & Current Affairs",
+        details: ["Current Events of National & International Importance", "Games & Sports, Art & Culture of India", "Indian Literature & Monuments", "Indian Polity & Economics Basics"]
+      }
+    ],
+    faqs: [
+      { question: "Is this RRB course taught in offline centers?", answer: "No, all our regular classes and CBT practice sessions are strictly Online (Daily and Weekend batches). We hold offline events solely for seminars and career guidance." },
+      { question: "Does the course cover General Science in detail?", answer: "Yes, General Science is a major pillar of RRB exams. We have dedicated modules covering Physics, Chemistry, and Life Sciences extensively." },
+      { question: "Are PDF notes provided for revision?", answer: "Absolutely. We provide comprehensive, structured PDF notes covering Science, Math formulas, and Current Affairs to make revision easy." },
+      { question: "Can I watch the classes later if I miss one?", answer: "Yes, 24/7 access to Recorded Lectures is available for all students to revise at their convenience." }
+    ]
+  },
+  {
+    id: "upsc-foundation",
+    title: "UPSC Foundation",
+    slug: "upsc-foundation",
+    categoryId: "gov",
+    shortDescription: "Premium online foundation course for IAS/IPS aspirants focusing on NCERT mastery, analytical thinking, and current affairs.",
+    overview: "The Civil Services Examination conducted by UPSC is widely considered one of the toughest examinations in the world. The journey to becoming an IAS, IPS, or IFS officer requires an incredibly strong academic foundation, exceptional analytical thinking, and a profound understanding of the world. Our premium UPSC Foundation program is meticulously designed for beginners and college students, acting as the ultimate stepping stone. We focus on building a rock-solid conceptual base using NCERTs, cultivating answer-writing skills early, and demystifying the vast syllabus of the Civil Services Exam.\n\nWe deliver this intensive foundation training exclusively through high-interaction Daily Online Classes and specialized Weekend Online Batches. This elite digital model allows you to learn from seasoned educators, subject matter experts, and former bureaucrats from anywhere in the country. Our online platform features live interactive sessions, real-time Doubt Solving, and dynamic digital maps and timelines for History and Geography. We provide 24/7 access to Recorded Lectures, empowering you to revisit complex philosophical, political, or economic concepts at your own pace, ensuring deep comprehension.\n\nWhile our core academic delivery is strictly online, we recognize that the UPSC journey requires immense mental fortitude and physical mentorship. We conduct periodic offline seminars, strategy workshops, and career guidance sessions with successful civil servants. These physical events are designed to keep you highly motivated, provide a clear roadmap, and foster networking with serious aspirants. We do not operate offline regular coaching centers for daily classes, allowing us to focus all our resources on delivering the most comprehensive and high-quality digital education available.\n\nThe curriculum is exhaustively structured to build from the ground up. We begin with complete NCERT mastery across History, Geography, Polity, and Economy, ensuring your basic concepts are unshakeable. Current affairs preparation is integrated daily, teaching you how to read newspapers effectively (like The Hindu) and link daily events to the UPSC syllabus. We emphasize analytical thinking and provide early descriptive writing practice, a crucial skill for the Mains examination. Our structured PDF notes compile vast amounts of data into highly readable formats.\n\nAssessment and strategy are at the heart of our foundation program. You will have access to an advanced series of AI Mock Tests that simulate the UPSC Prelims environment, testing your conceptual clarity and logic. We conduct in-depth previous year question analysis to help you understand the evolving nature of UPSC questions. With dedicated strategy sessions and personalized Mentorship, this program provides everything you need to build the perfect foundation for your civil services dream.",
+    features: [
+      "Premium Live Daily Online Classes for UPSC Foundation",
+      "Specialized Weekend Online Batches for College Students",
+      "24/7 Access to Recorded Classes & Digital Archives",
+      "Real-time Doubt Solving & Interactive Discussions",
+      "Comprehensive NCERT Mastery Modules (Class 6 to 12)",
+      "Daily Current Affairs Preparation & Newspaper Analysis",
+      "Structured & High-Quality PDF Notes",
+      "Early Descriptive Answer Writing Practice",
+      "Advanced AI Mock Tests for Prelims Conceptual Checking",
+      "In-depth Previous Year Question Analysis",
+      "Offline Strategy Seminars & Motivation Workshops",
+      "Personalized Mentorship & Study Planning"
+    ],
+    highlights: [
+      { title: "NCERT Mastery", description: "Deep-dive training into essential NCERT textbooks to build an unshakeable conceptual foundation." },
+      { title: "Analytical Approach", description: "Learn how to connect static syllabus subjects with dynamic daily current affairs." },
+      { title: "Answer Writing Focus", description: "Early introduction to descriptive writing techniques required for the UPSC Mains examination." },
+      { title: "Expert Mentorship", description: "Guidance from seasoned educators and strategy sessions to navigate the vast UPSC syllabus." }
+    ],
+    topics: [
+      {
+        module: "History & Culture Foundation",
+        details: ["Ancient, Medieval & Modern Indian History (NCERTs)", "Indian Art and Culture Basics", "World History Fundamentals", "Historical Timelines & Mapping"]
+      },
+      {
+        module: "Geography & Environment",
+        details: ["Physical Geography of India & the World", "Human & Economic Geography", "Environmental Ecology & Biodiversity Basics", "Atlas & Map Reading Workshops"]
+      },
+      {
+        module: "Polity & Governance",
+        details: ["Indian Constitution Basics & Making", "Working of the Indian Executive, Legislature & Judiciary", "Panchayati Raj & Local Governance", "Rights Issues & Public Policy Basics"]
+      },
+      {
+        module: "Economy & Current Affairs",
+        details: ["Macroeconomics Fundamentals", "Indian Economy & Planning", "How to read The Hindu/Indian Express", "Daily News Analysis & Note Making"]
+      }
+    ],
+    faqs: [
+      { question: "Is this UPSC Foundation course taught in offline centers?", answer: "No, all regular classes and foundation building sessions are strictly Online (Daily and Weekend batches). We only conduct offline events for strategy seminars and motivation." },
+      { question: "Is this course suitable for beginners or college students?", answer: "Yes, this course is specifically designed for beginners and college students. We start from the absolute basics (NCERTs) and build up your analytical skills." },
+      { question: "Do you teach how to read newspapers for UPSC?", answer: "Absolutely. We have dedicated sessions on newspaper analysis, showing you exactly how to extract relevant information for Current Affairs." },
+      { question: "Are PDF notes provided?", answer: "Yes, we provide structured, high-quality PDF notes that summarize NCERTs and integrate current affairs for easy revision." }
+    ]
+  },
+  {
+    id: "tnusrb-police",
+    title: "TNUSRB Police Exams (SI & Constable)",
+    slug: "tnusrb-police",
+    categoryId: "gov",
+    shortDescription: "Intensive online coaching for TNUSRB SI & Constable exams with psychology modules, bilingual notes, and exam strategy.",
+    overview: "Serving in the Tamil Nadu Police force is a matter of immense pride, discipline, and public service. The Tamil Nadu Uniformed Services Recruitment Board (TNUSRB) exams for Sub-Inspector (SI) and Constable posts require a unique blend of general knowledge, psychological aptitude, and language proficiency. Our premium TNUSRB Police Exams preparation program is a highly structured, rigorous digital bootcamp designed to help you master the written examination and secure your place in the uniformed services.\n\nWe deliver this intensive training exclusively through high-interaction Daily Online Classes and specialized Weekend Online Batches. This digital-first model ensures that you receive elite instruction from expert faculty directly at home, providing you with ample time to focus on your physical fitness and endurance training, which is a critical component of police recruitment. Our online platform features live interactive sessions, real-time Doubt Solving, and specialized training for the psychology section. We provide 24/7 access to Recorded Lectures, empowering you to revise formulas, facts, and logic puzzles anytime.\n\nWhile our core academic instruction is 100% online, we deeply value the role of physical motivation and strategic guidance in uniformed services preparation. We organize offline seminars, career guidance workshops, and motivation meetups with serving or retired police officers. These offline events provide a clear career roadmap, instill discipline, and offer face-to-face mentorship. We do not operate offline regular coaching centers for academic classes, allowing us to maintain a highly efficient, affordable, and premium digital learning experience.\n\nOur detailed syllabus covers every aspect of the TNUSRB exams. We place a massive emphasis on General Knowledge, General Tamil (Eligibility), and the highly crucial Psychology (Logical Analysis, Numerical Analysis, etc.) section. Our General Awareness sessions integrate daily Current affairs preparation and static GK, supported by highly structured, easy-to-revise PDF notes. We offer comprehensive Tamil + English support to ensure absolute clarity of concepts for all aspirants.\n\nContinuous assessment is key to clearing TNUSRB exams. Our program includes an extensive series of AI Mock Tests that perfectly replicate the exam environment, helping you build speed and accuracy. We conduct deep previous year question analysis to familiarize you with the board's unique questioning style. With dedicated strategy sessions and personalized mentorship, this program provides everything you need to clear the written exam and move confidently to the physical endurance stages.",
+    features: [
+      "Premium Live Daily Online Classes for TNUSRB SI & Constable",
+      "Flexible Weekend Online Batches for All Aspirants",
+      "24/7 Access to Recorded Classes & Study Materials",
+      "Real-time Doubt Solving & Interactive Quizzes",
+      "Comprehensive Bilingual PDF Notes (Tamil & English)",
+      "Intensive Psychology & Logical Analysis Modules",
+      "Daily Current Affairs & Static GK Preparation",
+      "Extensive AI Mock Tests mirroring the TNUSRB Pattern",
+      "In-depth Previous Year Question Analysis",
+      "Dedicated General Tamil Eligibility Test Preparation",
+      "Offline Motivation Seminars & Career Guidance Workshops",
+      "Personalized Mentorship for Exam Strategy"
+    ],
+    highlights: [
+      { title: "Psychology Mastery", description: "Deep-dive training into Logical Analysis, Numerical Analysis, and Communication Skills, which are crucial for police exams." },
+      { title: "Bilingual Notes", description: "High-quality, easy-to-revise PDF notes provided with full Tamil and English support." },
+      { title: "General Tamil Focus", description: "Dedicated modules to ensure you easily clear the mandatory General Tamil Eligibility Test." },
+      { title: "Flexible Learning", description: "Online classes save travel time, allowing you to focus on your physical endurance and fitness training." }
+    ],
+    topics: [
+      {
+        module: "Psychology & Logical Analysis",
+        details: ["Logical Analysis & Puzzles", "Numerical Analysis & Speed Math", "Communication Skills & Information Handling Ability", "Mental Ability & Decision Making"]
+      },
+      {
+        module: "General Knowledge",
+        details: ["General Science (Physics, Chemistry, Biology)", "History of India & Tamil Nadu", "Geography of India & Tamil Nadu", "Indian Polity & Economics"]
+      },
+      {
+        module: "Current Affairs",
+        details: ["Latest State & National News", "Sports, Awards & Honors", "Important Dates & Events", "Police & Defense Related News"]
+      },
+      {
+        module: "General Tamil (Eligibility)",
+        details: ["Tamil Grammar Basics", "Tamil Literature & Authors", "Comprehension & Error Spotting", "Previous Year Tamil Question Analysis"]
+      }
+    ],
+    faqs: [
+      { question: "Is this TNUSRB course available in offline coaching centers?", answer: "No, all our academic classes and practice sessions are strictly Online (Daily and Weekend batches). We hold offline events solely for seminars and motivational workshops." },
+      { question: "Does this course cover the Psychology section in detail?", answer: "Yes, the Psychology/Mental Ability section is a major deciding factor in police exams, and we have intensive, dedicated modules to cover it completely." },
+      { question: "Are PDF notes provided in Tamil?", answer: "Absolutely. We provide comprehensive Tamil + English support, ensuring all PDF notes are accessible and easy to revise." },
+      { question: "How does online coaching help with police exams?", answer: "Online coaching eliminates travel time, giving you the crucial extra hours needed every day to train for the Physical Endurance Test (PET)." }
+    ]
+  },
+  {
+    id: "tet-trb",
+    title: "TET / TRB Exams",
+    slug: "tet-trb",
+    categoryId: "gov",
+    shortDescription: "Elite online coaching for Tamil Nadu TET and TRB exams focusing on Child Development, Pedagogy, and core subjects.",
+    overview: "Teaching is one of the most noble and respected professions, and clearing the Tamil Nadu Teacher Eligibility Test (TNTET) or the Teachers Recruitment Board (TRB) exams is the essential first step to securing a government teaching job. Success in these exams requires a deep understanding of educational psychology, flawless mastery of your core subjects, and excellent language proficiency. Our premium TET/TRB preparation program is an elite, highly focused digital journey designed to help aspiring teachers master the syllabus and achieve outstanding scores.\n\nWe deliver this intensive training exclusively through high-interaction Daily Online Classes and specialized Weekend Online Batches. This digital-first model is incredibly beneficial for B.Ed graduates, many of whom may be working in private schools or managing households. You receive top-tier instruction from expert educators directly at home, eliminating travel constraints. Our online platform features live interactive sessions, real-time Doubt Solving, and dynamic presentations for complex pedagogical concepts. We provide 24/7 access to Recorded Lectures, empowering you to endlessly revise child psychology theories, grammar rules, and core subject facts.\n\nWhile our core academic instruction is 100% online, we deeply value the role of physical motivation and strategic guidance for aspiring teachers. We organize offline seminars, career guidance workshops, and success meetups. These offline events provide a clear career roadmap and face-to-face interaction with mentors and experienced educators. We do not operate offline regular coaching centers for academic classes, allowing us to maintain a highly efficient, affordable, and premium digital learning experience tailored for future teachers.\n\nOur detailed syllabus covers every aspect of the TET (Paper I & II) and TRB exams. We place a massive emphasis on Child Development and Pedagogy (CDP), teaching you the psychological foundations of learning and teaching methodologies. Our language modules (Tamil and English) focus on grammar accuracy and language teaching pedagogy. For Paper II and TRB, we provide in-depth training in your chosen core subjects (Mathematics, Science, or Social Science). We offer Tamil + English support, providing highly structured, easy-to-revise PDF notes.\n\nAssessment is the core of our pedagogy. You will have access to an advanced series of AI Mock Tests that perfectly replicate the exam environment, providing deep analytics on your conceptual clarity and time management. We conduct extensive previous year question analysis to familiarize you with the board's unique questioning style. With dedicated strategy sessions and personalized mentorship, this program provides everything you need to embark on a successful government teaching career.",
+    features: [
+      "Premium Live Daily Online Classes for TET & TRB",
+      "Flexible Weekend Online Batches for Working Teachers",
+      "24/7 Access to Recorded Classes & Pedagogy Archives",
+      "Real-time Doubt Solving & Interactive Quizzes",
+      "Comprehensive Bilingual PDF Notes (Tamil & English)",
+      "Intensive Child Development & Pedagogy (CDP) Modules",
+      "In-depth Core Subject Training (Math/Science/Social)",
+      "Extensive AI Mock Tests mirroring the TET/TRB Pattern",
+      "In-depth Previous Year Question Analysis",
+      "Dedicated Language Pedagogy Sessions (Tamil & English)",
+      "Offline Motivation Seminars & Career Guidance Workshops",
+      "Personalized Mentorship for Exam Strategy"
+    ],
+    highlights: [
+      { title: "Pedagogy Mastery", description: "Deep-dive training into Child Development, Learning Theories, and Educational Psychology." },
+      { title: "Core Subject Focus", description: "Comprehensive coverage of Mathematics, Science, or Social Science based on your specialization." },
+      { title: "Bilingual Notes", description: "High-quality, easy-to-revise PDF notes provided with full Tamil and English support." },
+      { title: "Flexible for Professionals", description: "Online classes and recorded sessions make it perfect for those already working in private schools." }
+    ],
+    topics: [
+      {
+        module: "Child Development & Pedagogy",
+        details: ["Theories of Child Development & Learning", "Inclusive Education & Understanding Children with Special Needs", "Learning & Pedagogy Processes", "Educational Psychology & Teaching Methods"]
+      },
+      {
+        module: "Language I (Tamil)",
+        details: ["Tamil Grammar & Literature Comprehension", "Language Comprehension (Prose/Poetry)", "Pedagogy of Tamil Language Development", "Previous Year Tamil Question Analysis"]
+      },
+      {
+        module: "Language II (English)",
+        details: ["English Grammar & Error Spotting", "Reading Comprehension & Vocabulary", "Pedagogy of English Language Development", "Phonetics & Teaching Methodologies"]
+      },
+      {
+        module: "Core Subjects (Paper II / TRB)",
+        details: ["Mathematics: Arithmetic, Algebra & Geometry", "Science: Physics, Chemistry, Botany & Zoology", "Social Science: History, Geography, Polity & Economy", "Subject-specific Pedagogical Issues"]
+      }
+    ],
+    faqs: [
+      { question: "Is this TET/TRB course available in offline coaching centers?", answer: "No, all our academic classes and practice sessions are strictly Online (Daily and Weekend batches). We hold offline events solely for seminars and motivational workshops." },
+      { question: "Does this course cover both Paper I and Paper II?", answer: "Yes, our curriculum provides foundational training for Paper I and specialized core-subject training for Paper II." },
+      { question: "Are PDF notes provided in Tamil?", answer: "Absolutely. We provide comprehensive Tamil + English support, ensuring all PDF notes and pedagogy materials are accessible in both mediums." },
+      { question: "Can I manage this course if I am currently teaching?", answer: "Yes, our specialized Weekend Online Batches and 24/7 access to Recorded Lectures make it perfect for working teachers." }
+    ]
   }
+
 ];
 
 // Helper functions

@@ -9,6 +9,10 @@ import { ArrowUpRight } from "lucide-react";
 import { courseCategories, getCoursesByCategory } from "@/data/courseData";
 import { motion } from "framer-motion";
 
+
+import bannercourse from "@/assets/banners/bannercourse.jpeg";
+
+
 const containerVariants = {
   hidden: { opacity: 0 },
   visible: {
@@ -27,7 +31,22 @@ export default function CoursesPage() {
     <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-1 overflow-hidden">
-        <motion.section 
+        
+        
+        
+        <motion.img
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          src={bannercourse}
+          alt=""
+          className="w-full h-auto object-cover"
+        />
+        
+        
+        
+        
+        {/* <motion.section 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
@@ -38,7 +57,7 @@ export default function CoursesPage() {
             <h1 className="mt-3 font-display text-4xl sm:text-5xl font-bold leading-tight">Find the program built for <span className="text-gradient">your goal</span></h1>
             <p className="mt-4 text-lg text-muted-foreground">From CAT to CLAT, school olympiads to placement training — every program is delivered by India's top mentors.</p>
           </div>
-        </motion.section>
+        </motion.section> */}
 
         <section className="py-16 container mx-auto px-4 space-y-12">
           {courseCategories.map((category) => {

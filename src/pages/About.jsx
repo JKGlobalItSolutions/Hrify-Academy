@@ -48,7 +48,14 @@ with learning that inspires growth.</p>
 
 
 
-<img src={bannerabout}  alt="" />
+<motion.img
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, ease: "easeOut" }}
+  src={bannerabout}
+  alt=""
+  className="w-full h-auto object-cover"
+/>
 
 
 

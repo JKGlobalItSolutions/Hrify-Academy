@@ -12,6 +12,9 @@ import { z } from "zod";
 import { Phone, Mail, MapPin } from "lucide-react";
 import { motion } from "framer-motion";
 
+
+import bannercontact from "@/assets/banners/bannercontact.jpeg";
+
 const schema = z.object({
   name: z.string().trim().min(2, "Name is required").max(80),
   email: z.string().trim().email("Enter a valid email").max(120),
@@ -92,7 +95,21 @@ export default function ContactPage() {
     <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-1 overflow-hidden">
-        <motion.section 
+        
+        
+        
+           <motion.img
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6, ease: "easeOut" }}
+                  src={bannercontact}
+                  alt=""
+                  className="w-full h-auto object-cover"
+                />
+        
+        
+        
+        {/* <motion.section 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
@@ -103,7 +120,7 @@ export default function ContactPage() {
             <h1 className="mt-3 font-display text-4xl sm:text-5xl font-bold leading-tight">Let's plan your <span className="text-gradient">topper journey</span></h1>
             <p className="mt-4 text-lg text-muted-foreground">Drop your details and a HRIFY mentor will get back within 24 hours.</p>
           </div>
-        </motion.section>
+        </motion.section> */}
 
         <section className="py-16 container mx-auto px-4 grid lg:grid-cols-[1fr_1.2fr] gap-10">
           <motion.div 

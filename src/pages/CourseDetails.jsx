@@ -108,7 +108,7 @@ export default function CourseDetailsPage() {
               
               <div>
                 <span className="inline-block py-1 px-0 rounded-full bg-primary/10 text-primary text-lg font-bold uppercase tracking-wider mb-4">
-                  {course.categoryId === 'college' ? 'College Level' : course.categoryId === 'school' ? 'School Level' : course.categoryId === 'gov' ? 'Government Exams' : 'Law & Management'}
+                  {course.categoryId === 'college' ? 'College Level' : course.categoryId === 'school' ? 'School Level' : course.categoryId === 'gov' ? 'Government Exams' : course.categoryId === 'it' ? 'IT & Software Courses' : 'Undergraduate Programs'}
                 </span>
                 <h1 className="font-display text-4xl sm:text-5xl font-bold leading-tight mb-4">
                   {course.title}
@@ -133,12 +133,16 @@ export default function CourseDetailsPage() {
                 <div className="bg-card border rounded-2xl p-8 shadow-elegant">
                   <h3 className="font-semibold text-lg mb-4 flex items-center gap-2">
                     <Trophy className="w-5 h-5 text-primary" />
-                    Exams Covered
+                    {course.categoryId === 'it' ? 'Key Technologies' : 'Exams Covered'}
                   </h3>
                   <div className="flex flex-wrap gap-2">
-                    {course.examsCovered.map((exam, i) => (
+                    {course.examsCovered ? course.examsCovered.map((exam, i) => (
                       <span key={i} className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm font-medium transition-colors hover:bg-primary/10">
                         {exam}
+                      </span>
+                    )) : course.topics?.slice(0, 4).map((topic, i) => (
+                      <span key={i} className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm font-medium transition-colors hover:bg-primary/10">
+                        {topic.module}
                       </span>
                     ))}
                   </div>
